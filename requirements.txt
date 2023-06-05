@@ -1,0 +1,9 @@
+Flask==2.3.2
+Flask-RESTful==0.3.8
+Flask-SQLAlchemy==2.4.3
+Flask-WTF==1.1.1
+pyodbc==4.0.39
+python==3.8.0
+pip==21.2.4
+jinja==3.1.2
+blinker==1.6.2
