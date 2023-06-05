@@ -1,5 +1,5 @@
-python==3.9.2
-Flask==2.3.2
-pyodbc==4.0.39
-pip==23.1.2
-blinker==1.6.2
+python
+Flask
+pyodbc
+pip
+blinker
