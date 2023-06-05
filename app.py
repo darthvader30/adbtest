@@ -16,4 +16,10 @@ print(check_username)
 
 @app.route("/")
 def hello_world():
+    # sql = "SELECT * from users"
+    # c1.execute(sql)
+    # names = c1.fetchall()
+    # except Exception as e:
+    # print(e)
+    # return check_username
     return "<p>Hello, World!</p>"
