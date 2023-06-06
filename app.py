@@ -10,9 +10,9 @@ username = "kxs5434"
 password = "root@123"
 conn= pyodbc.connect('DRIVER='+driver+';SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = conn.cursor() #cursor 
-cursor.execute('''Select * from all_day''')
-check_username=cursor.fetchall()
-print(check_username)
+cursor.execute('''Select * from dbo.all_day''')
+query_output=cursor.fetchall()
+print(query_output)
 
 @app.route("/")
 def hello_world():
@@ -21,5 +21,5 @@ def hello_world():
     # names = c1.fetchall()
     # except Exception as e:
     # print(e)
-    # return check_username
+    # return query_output
     return "<p>Hello, World!</p>"
